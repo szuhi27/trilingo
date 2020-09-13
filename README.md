@@ -43,3 +43,17 @@
 + 5.1.3 Opcionális háttérzene alkalmazása
 + 5.1.4 Egyszerű szavak megfelelőjének kiválasztása 4 opció közül
 + 5.1.5 Végeredmény visszajelzése a felhasználónak
+
+## 6. Követelménylista
+
+### 6.1 Általános Követelmények
++ 6.1.1 Dokumentáltság. A programhoz,és annak használatához a tudásanyag egy helyen elérhető legyen bármikor a felhasználók számára.
++ 6.1.2 Terméktámogatás. A nyelvprogram legyen használható windows 10 operációs rendszeren, valamint annak minden jövőbeli verziójára frissítve legyen.
++ 6.1.3 Minden hazai törvénynek megfeleljen.
++ 6.1.4 Minden változtatás és frissités nyomon követhető legyen a program fejlesztése, karbantartása közben. Legyen hozzá egy napló vezetve.
++ 6.1.5 Adatbáziskezelés. Legyen Mysql környezetben a tárolandó szavak. 
++ 6.1.6 Legyen egy felület, ahol a megrendelő bármikor bővitheti vagy szerkesztheti a programban tárolt szavakat. 
++ 6.1.7 Fontos hogy a program több nyelven is futtatható legyen (finn/orosz/ango/magyar).
++ 6.1.8 Jó lenne, ha vizuálisan is megkülönböztethető lenne a nyelvek egyénisége.
+ 
+
