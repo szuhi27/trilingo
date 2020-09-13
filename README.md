@@ -12,6 +12,18 @@
 + 1.1.6 A felmérések és a gyakorlás papír alapon történik.
 + 1.1.7 Azt tapasztaljuk,hogy a diákok nagy része nem motivált a tanulásra és a mindennapi életben nem foglalkozik eleget a nyelvvel.
 
+## 2. Vágyálomrendszer
+
+### 2.1
+
++ 2.1.1 A diákok könnyebb felmérése érdekében, az eddig papír alapon megírt teszteket számítógépeken szeretnénk elvégezni.
++ 2.1.2 Szeretnénk, ha ezt a teszted 3 szinten és a 3 fő nyelvünkben el tudnánk végezni.
++ 2.1.3 Szeretnénk, ha a teszt elvégzése után egyből látható lehessen az elért eredmény.
++ 2.1.4 A tesztek elvégzése legyen lehetséges Windows és Ubuntu rendszereken is.
++ 2.1.5 Egy ki-be kapcsolható háttérzenét is szeretnénk tudni lejátszani, ha valaki azt igényelné.
++ 2.1.6 Az eredményeket tárolni is kellene, hogy azt esetleg később vissza lehessen nézni, vagy a diák haladását azzal nyomonkövetni.
++ 2.1.7 Jó lenne, ha az eredmény szövege a kiválasztott nyelven jelenne meg.
+
 ## 4. Jelenlegi üzleti folyamatok modellje
 
 ### 4.1 
