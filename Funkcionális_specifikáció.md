@@ -1,5 +1,32 @@
 Funkcionális specifikáció
 =========================
+## Jelenlegi helyzet
+
+A jelenlegi helyzetben azért szükséges a változás, hiszen a papírok és könyvek könnyen eltűnhetnek és roncsolódhatnak, valamint cél a tanulás vonzóbbá tétele és a diákok motiválása.
+
++ Papír alapú nyelvvizsga anyagok
++ Személyesen történő oktatás
++ Tapasztalt motiválatlanság amikor szótárból kell szavakat tanulni
++ Személyesen történő felmérés és gyakorlás
++ Sok óraadó tanár foglalkoztatása
+
+## Jelenlegi üzleti folyamatok modellje
+
++ A diákok a füzeteikkel és könyveikkel járnak be a nyelviskola óráira 
++ A tanárnak és a diáknak egy helyen kell tartózkodnia
++ Az órák helye és ideje adott 
++ Az oktató szóban segít az anyag megértésében, melyet a diákoknak jegyzetelniük kell
++ Ha valamilyen indokkal a diák nem vesz részt az órán azt már ugyanolyan minőségben nem tudja pótolni
+
+## Igényelt üzleti folyamatok modellje
++ A program futtatásakor a főablak jelenik meg, melyben a következő funkciókat találjuk meg:
+++ Nyelv kiválasztása
+++ Háttérzene némítása
+++ Kilépés a programból
++ A nyelv kiválasztása után kategóriát kell választani a gyakorló szintjéhez mérve.
++ A szintválasztás után elkezdődik a gyakorlás .
++ Gyakorlásnál egy magyar szó jelenik meg majd a választott nyelven 4 lehetőség a helyes megoldásra
++ A teszt végén láthatjuk hogy mennyi jó válaszunk volt
 
 ## Használati esetek
 
