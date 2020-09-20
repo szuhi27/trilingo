@@ -1,9 +1,19 @@
 Rendszerterv
 ============
 
-## 9. Adatbázis terv
+## Absztrakt domain modell
 
-Az adattárolás valójában nem egy adatbázis segítségével valósul meg, hanem egyszerűen egy szöveges dokumentumot használunk. Ez jelen esetünkben teljesen megfelelő (az esetleges bővítés is biztosítása is lehetséges).
+A rendszerünk egy gépből áll, mivel a szoftver csak a adott gépen fut, nem használ semmiféle hálózati kapcsolatot, nem kommunikál semmiféle módon bármilyen szerverrel.
+
+## Architektúrális terv
+
+Ismételten a program helyileg fut, egyszerre összesen csak egy felhasználó tudja használni. Ha a program valamilyen módon leáll, az addig történtek benne elvesznek, nem kerülnek semmilyen módon tárolásra.
+
+A felhasználó a programból azt, vagy adatait nem tudja módosítani, viszont a dokumentumok nincsenek titkosítva.
+
+## Adatbázis terv
+
+Az adattárolás valójában nem egy adatbázis segítségével valósul meg, hanem egyszerűen egy szöveges dokumentumot használunk. Ez jelen esetünkben teljesen megfelelő.
 
 A sorok felépítése az alábbi:
 + [nyelv angol rövidítése],[nehézség],[válasz1],[válasz2],[válasz3],[válasz4],[helyes válasz]
@@ -14,4 +24,4 @@ A válaszokat tartalmazó dokumentum soronként kerül feldolgozásra és az ele
 
 A kérdések képek formájában vannak használva, a képek a nyelvnek, azon belül a nehézségnek megfelelő mappában vannak, a resources mappán belül.
 
-Ha tartjuk a sorok formáját lehet bővíteni több kérdéssel (természetesen, ha a hozzá tartozó képet is elhelyezzük a mefelelő mappában). A kérdések maximális száma egyszeri betöltésre 999.
+A kérdések maximális száma egyszeri betöltésre 999.
