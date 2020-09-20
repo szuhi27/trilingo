@@ -1,5 +1,15 @@
 Funkcionális specifikáció
 =========================
+## Jelenlegi helyzet
+
+A jelenlegi helyzetben azért szükséges a változás, hiszen a papírok és könyvek könnyen eltűnhetnek és roncsolódhatnak, valamint cél a tanulás vonzóbbá tétele és a diákok motiválása.
+
++ Papír alapú nyelvvizsga anyagok
++ Személyesen történő oktatás
++ Tapasztalt motiválatlanság amikor szótárból kell szavakat tanulni
++ Személyesen történő felmérés és gyakorlás
++ Sok óraadó tanár foglalkoztatása
+
 
 ## Használati esetek
 
