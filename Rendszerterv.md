@@ -75,6 +75,16 @@ A kérdések képek formájában vannak használva, a képek a nyelvnek, azon be
 A kérdések maximális száma egyszeri betöltésre 999.
 
 
+## Követelmények
+
++ A program windows 10 rendszeren fusson. 
++ A rendszer több nyelven is tudja tesztelni a felhasználók tudását.
++ A rendszer több nehézségen is tudja tesztelni a felhasználók tudását.
++ Lehessen bővíteni a szavakat a program átadása után.
++ 4 válaszlehetőség legyen minden kérdésnél.
++ Írja ki az eredményt a teszt végén.
+
+
 ## Funkcionális terv
 
 A funkcionális működést az alábbi képernyő tervekkel szeretném felvázolni.
@@ -89,3 +99,8 @@ a képernyő változatlan marad, csak a kiírás és a gombok tartalma változik
 Ezt egy UML diagrammal ábrázolva: 
 
 ![Funkcionális terv ábrázolása](https://github.com/szuhi27/trilingo/tree/master/src/main/resources/images/funkcterv.png)
+
+## Fizikai környezet
+
+A programot Java nyelven írjuk java fx segítségével, adatbázisnak egyszerű szöveges dokumentumot alkalmazunk,
+Windows 10 rendszerre.
