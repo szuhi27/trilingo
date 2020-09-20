@@ -25,3 +25,19 @@ A válaszokat tartalmazó dokumentum soronként kerül feldolgozásra és az ele
 A kérdések képek formájában vannak használva, a képek a nyelvnek, azon belül a nehézségnek megfelelő mappában vannak, a resources mappán belül.
 
 A kérdések maximális száma egyszeri betöltésre 999.
+
+
+## Funkcionális terv
+
+A funkcionális működést az alábbi képernyő tervekkel szeretném felvázolni.
+Amint megnyitjuk a programot és az elindul egyből egy kép tárul elénk amin fel van tüntetve a program neve,
+valamint utasít minket aprogram hogy válasszunk nyelvet. Ehhez 3 egyforma gombot jelenít meg a képernyő közepén
+egymás alatt rajta a 3 különböző nyelvvel (Angol, Orosz, Finn). Amint kiválasztjuk az egyik nyelvet, nem változik semmi a képernyőn, csak a gombok tartalmán kívül,
+most a program a nyelv nehézségi szintjének kiválasztását hozza fel lehetőségül melyek: Kezdő, Haladó és Szakértő.
+Ezután a képernyő teljesen megváltozik, fent középen az idegen szó kerül kiírásra és alatta 4 szó hazai nyelven melyek közül az egyik a helyes megfelelője.
+Amint rákattintunk a 4 gomb közül valamelyikre még nem jelenik meg az eredmény, az majd csak a teszt végén kerül kiírásra.
+a képernyő változatlan marad, csak a kiírás és a gombok tartalma változik meg. Amint válaszolunk X kérdésre a helyes eredmény kiírásra kerül és újra kezdhetjük a tesztet vagy kiléphetünk belőle.
+
+Ezt egy UML diagrammal ábrázolva: 
+
+![Funkcionális terv ábrázolása](https://github.com/szuhi27/trilingo/tree/master/src/main/resources/images/funkcterv.png)
