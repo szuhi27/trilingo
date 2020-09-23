@@ -4,13 +4,7 @@
 
 ### 1.1
 
-+ 1.1.1 A "Kezdjük el!" nyelviskola egy Debrecenben működő, nyelvvizsgára felkészítő iskola.
-+ 1.1.2 A képzésen 3 szinten tartanak képzéseket, alap, közép és emelt szinten.
-+ 1.1.3 A diákok az alapján kerülnek egy csoportba, hogy felmérés után melyik szinthez tartoznak.
-+ 1.1.4 Az iskolában több különböző nyelvű kurzus megtalálható.
-+ 1.1.5 A 3 fő nyelvi kurzus az angol, a finn és az orosz.
-+ 1.1.6 A felmérések és a gyakorlás papír alapon történik.
-+ 1.1.7 Azt tapasztaljuk,hogy a diákok nagy része nem motivált a tanulásra és a mindennapi életben nem foglalkozik eleget a nyelvvel.
+A "Kezdjük el!" nyelviskola egy Debrecenben működő, nyelvvizsgára felkészítő iskola. A képzésen 3 szinten tartanak képzéseket, alap, közép és emelt szinten. A diákok az alapján kerülnek egy csoportba, hogy felmérés után melyik szinthez tartoznak. Az iskolában több különböző nyelvű kurzus megtalálható. A 3 fő nyelvi kurzus az angol, a finn és az orosz. A felmérések és a gyakorlás papír alapon történik. Azt tapasztaljuk,hogy a diákok nagy része nem motivált a tanulásra és a mindennapi életben nem foglalkozik eleget a nyelvvel.
 
 ## 2. Vágyálomrendszer
 
