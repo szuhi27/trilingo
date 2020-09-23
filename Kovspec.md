@@ -16,12 +16,11 @@
 
 ### 2.1
 
-+ 2.1.1 A diákok könnyebb felmérése érdekében, az eddig papír alapon megírt teszteket számítógépeken szeretnénk elvégezni.
-+ 2.1.2 Szeretnénk, ha ezt a teszted 3 szinten és a 3 fő nyelvünkben el tudnánk végezni.
-+ 2.1.3 Szeretnénk, ha a teszt elvégzése után egyből látható lehessen az elért eredmény.
-+ 2.1.4 A tesztek elvégzése legyen lehetséges Windows és Ubuntu rendszereken is.
-+ 2.1.5 Egy ki-be kapcsolható háttérzenét is szeretnénk tudni lejátszani, ha valaki azt igényelné.
-+ 2.1.6 Jó lenne, ha az eredmény szövege a kiválasztott nyelven jelenne meg.
+A nyelviskolánk szeretne egy olyan szoftvert használni a jövőben, amivel ki lehet váltani a papír alapú tesztek írását. Egy olyan szoftverre van szükség amit a tanuló egyszerűen tud kezelni, legyen átlátható. Fontos, hogy lehessen kiválasztani melyik nyelvet (angol, finn, orosz) és azt milyen szinten (egyszerű, közepes, nehéz) szeretné elvégezni a tanuló. A teszt olyan legyen, hogy az összes kérést lehessen meg válaszolni függetlenül attól, hogy a válasz jó vagy sem. Esetleg olyan funció is lehet benne, amivel ki lehet választani, hogy hány kérdésre lehessen válaszolni (az elegendő ötössével). A teszt végén egy szöveg írná ki az eredményt, pl.: "Az elért eredmény x/y", ezt a szöveget olyan nyelven jelenítsük meg, amilyen nyelvben éppen végeztük a tesztet.
+
+A szoftver futtatását PC-n (főként Windows rendszeren) végeznénk, vagyis azzal kell legyen kompatibilis. Egyéb addíciókat a fejlesztők kedve szerint, mint valamiylen szebb grafika, esetleg háttérzene, hangeffektek.
+
+Ezen program segítségével az iskolának nem kellene foglalkonznia a nyomtatással, illetve a teszt utáni javítással, ezzel a tanuló is egy gyorsabb eredményt kaphatna, nem kell várnia az erdményre, ami akár órák kérdése is lehet, mert egyszerre sokan írnak tesztet.
 
 ## 4. Jelenlegi üzleti folyamatok modellje
 
