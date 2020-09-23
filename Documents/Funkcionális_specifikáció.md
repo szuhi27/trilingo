@@ -2,13 +2,7 @@ Funkcionális specifikáció
 =========================
 ## Jelenlegi helyzet
 
-A jelenlegi helyzetben azért szükséges a változás, hiszen a papírok és könyvek könnyen eltűnhetnek és roncsolódhatnak, valamint cél a tanulás vonzóbbá tétele és a diákok motiválása.
-
-+ Papír alapú nyelvvizsga anyagok
-+ Személyesen történő oktatás
-+ Tapasztalt motiválatlanság amikor szótárból kell szavakat tanulni
-+ Személyesen történő felmérés és gyakorlás
-+ Sok óraadó tanár foglalkoztatása
+A jelenlegi helyzetben azért szükséges a változás, hiszen a papírok és könyvek könnyen eltűnhetnek és roncsolódhatnak, valamint cél a tanulás vonzóbbá tétele és a diákok motiválása.Jelenleg papír alapú nyelvvizsga anyagok találhatóak meg.Az oktatás személyesen történik.A tanárok motiválatlanságot tapasztalnak a diákok felől amikor a szavakat szótárból kellene megtanulniuk. A gyakorlás és a felmérés személyesen történik.A nyelviskola működtetéséhez nagyon sok óraadó tanár foglalkoztatása szükséges.
 
 ## Jelenlegi üzleti folyamatok modellje
 
