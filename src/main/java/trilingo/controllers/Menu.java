@@ -45,7 +45,7 @@ public class Menu {
 
     public void game(){
         //Ide kerül majd a körök cseréje stb.
-        questionIV.setImage(new Image(getClass().getResource("/images/ph.png").toExternalForm()));
+        questionIV.setImage(new Image(getClass().getResource("/images/bcgs/ph.png").toExternalForm()));
 
 
     }
