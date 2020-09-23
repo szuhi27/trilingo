@@ -4,6 +4,14 @@ Funkcionális specifikáció
 
 A jelenlegi helyzetben azért szükséges a változás, hiszen a papírok és könyvek könnyen eltűnhetnek és roncsolódhatnak, valamint cél a tanulás vonzóbbá tétele és a diákok motiválása.Jelenleg papír alapú nyelvvizsga anyagok találhatóak meg.Az oktatás személyesen történik.A tanárok motiválatlanságot tapasztalnak a diákok felől amikor a szavakat szótárból kellene megtanulniuk. A gyakorlás és a felmérés személyesen történik.A nyelviskola működtetéséhez nagyon sok óraadó tanár foglalkoztatása szükséges.
 
+## Vágyálomrendszer
+
+A nyelviskola szeretne egy olyan szoftvert használni a jövőben, amivel ki lehet váltani a papír alapú tesztek írását. Egy olyan szoftverre van szükség amit a tanuló egyszerűen tud kezelni, legyen átlátható. Fontos, hogy lehessen kiválasztani melyik nyelvet (angol, finn, orosz) és azt milyen szinten (egyszerű, közepes, nehéz) szeretné elvégezni a tanuló. A teszt olyan legyen, hogy az összes kérést lehessen meg válaszolni függetlenül attól, hogy a válasz jó vagy sem. Esetleg olyan funció is lehet benne, amivel ki lehet választani, hogy hány kérdésre lehessen válaszolni (az elegendő ötössével). A teszt végén egy szöveg írná ki az eredményt, pl.: "Az elért eredmény x/y", ezt a szöveget olyan nyelven jelenítsük meg, amilyen nyelvben éppen végeztük a tesztet.
+
+A szoftver futtatását PC-n (főként Windows rendszeren) végeznénk, vagyis azzal kell legyen kompatibilis. Egyéb addíciókat a fejlesztők kedve szerint, mint valamiylen szebb grafika, esetleg háttérzene, hangeffektek.
+
+Ezen program segítségével az iskolának nem kellene foglalkonznia a nyomtatással, illetve a teszt utáni javítással, ezzel a tanuló is egy gyorsabb eredményt kaphatna, nem kell várnia az erdményre, ami akár órák kérdése is lehet, mert egyszerre sokan írnak tesztet.
+
 ## Jelenlegi üzleti folyamatok modellje
 
 + A diákok a füzeteikkel és könyveikkel járnak be a nyelviskola óráira 
