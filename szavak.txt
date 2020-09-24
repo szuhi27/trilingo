@@ -1,0 +1,66 @@
+eng,easy,sister,mother,grandmother,dad,mother	lánytestvér,anya,nagymama,apa,anya
+eng,easy,dad,son,family,brother,dad	apa,fia valakinek,család,fiútestvér,apa
+eng,easy,home,kitchen,family,garden,family	otthon,konyha,család,kert,család
+eng,easy,girl,boy,dad,son,boy	 lány,fiú,apa,fia valakinek,fiú
+eng,easy,girl,sister,boy,mother,girl	 lány,lánytestvér,fiú,anya,lány
+eng,easy,blue,red,green,yellow,blue		kék,piros,zöld,sárga,kék
+eng,easy,green,orange,blue,red,orange	zöld,narancssárga,kék,piros,narancssárga
+eng,easy,purple,grey,black,white,black	lila,szürke,fekete,fehér,fekete
+eng,easy,daughter,brother,girl,sister,sister 	lánya valakinek,fútestvér,lány,lánytestvér,lánytestvér
+eng,easy,boy,son,brother,sister,brother	fiú,fia valakinek,fiútestvér,lánytestvér,fiútestvér
+
+russ,easy,сестра,мать,бабушка,папа,мать 	lánytestvér,anya,nagymama,apa,anya
+russ,easy,папа,сын,семья,брат,папа 	apa,fia valakinek,család,fiútestvér,apa
+russ,easy,дом,кухня,семья,сад,семья	 otthon,konyha,család,kert,család
+russ,easy,девочка,мальчик,папа,сын,мальчик	 lány, fiú,apa, fia valakinek,fiú
+russ,easy,девочка,сестра,мальчик,мать,девочка	 lány,lánytestvér,fiú,anya,lány
+russ,easy,синий,красный,зеленый,желтый,синий 	kék,piros,zöld,sárga,kék
+russ,easy,зеленый,оранжевый,синий,красный,оранжевый 	zöld,narancssárga,kék,piros,narancssárga
+russ,easy,фиолетовый,серый,черный,белый,черный  	lila,szürke,fekete,fehér,fekete
+russ,easy,дочь,брат,девочка,сестра,сестра 	lánya valakinek,fútestvér,lány,lánytestvér,lánytestvér
+russ,easy,мальчик,сын,брат,сестра,брат 	fiú,fia valakinek,fiútestvér,lánytestvér,fiútestvér
+
+finn,easy,sisko,äiti,isoäiti,isä,äiti	lánytestvér,anya,nagymama,apa,anya
+finn,easy,isä,poika,perhe,veli,isä	apa,fia valakinek,család,fiútestvér,apa
+finn,easy,koti,keittiö,perhe,puutarha,perhe	otthon,konyha,család,kert,család
+finn,easy,tyttö,poika,isä,äiti,poika	lány,fia valakinek,apa,anya,fia valakinek
+finn,easy,tyttö,sisko,poika,äiti,tyttö	lány,lánytestvér,fia valakinek,anya,lány
+finn,easy,sininen,punainen,vihreä,keltainen,sininen	kék,piros,zöld,sárga,kék
+finn,easy,vihreä,oranssi,sininen,punainen,oranssi	zöld,narancssárga,kék,piros,narancssárga
+finn,easy,violetti,harmaa,musta,valkoinen,musta	lila,szürke,fekete,fehér,fekete
+finn,easy,tytär,veli,tyttö,sisko,sisko	lánya valakinek,fútestvér,lány,lánytestvér,lánytestvér
+finn,easy,perhe,poika,veli,sisko,veli	család,fia valakinek,fiútestvér,lánytestvér,fiútestvér
+
+eng,medium,excellent,good,sad,brilliant,excellent 	 kiváló,jó,szomorú,ragyogó,kiváló
+eng,medium,kitchen,living room,restaurant,bathroom,restaurant 	konyha,nappali,étterem,fürdőszoba,étterem
+eng,medium,while,by the way,however,usually,by the way 	miközben,egyébként,azonban,általában,egyébként
+eng,medium,washing machine,dishwasher,cabinet,wash up,dishwasher  	mosógép,mosogatógép,szekrény,elmosogatni,mosogatógép
+eng,medium,however,actually,brilliant,often,however    azonban,tulajdonképpen,csodálatos,gyakran,azonban
+eng,medium,sadly,unfortunately,unluckily,regrettably,unfortunately 	szomorúan,sajnos,szerencsétlenül,megbánóan,sajnos
+eng,medium,rosemary,ginger,thyme,basil,thyme   rozmaring,gyömbér,kakukkfű,bazsalikom,kakukkfű
+eng,medium,although,actually,however,since,although    habár,tulajdonképpen,azonban,mióta,habár
+eng,medium,always,usually,often,rarely,usually mindig,általában,gyakran,ritkán,általában
+eng,medium,thyme,achievement,succesful,profession,achievement   kakukkfű,eredmény,sikeres,szakma,eredmény
+
+russ,medium,отлично,хорошо,грустно,блестяще,отлично 	kiváló,jó,szomorú,ragyogó,kiváló
+russ,medium,кухня,гостиная,ресторан,ванная,ресторан 	konyha,nappali,étterem,fürdőszoba,étteremú
+russ,medium,однако,кстати,редко,к сожалению,кстати, 	azonban,egyébként,ritkán,sajnos,egyébként
+russ,medium,стиральная машина,посудомоечная машина,шкаф,мытье посуды,посудомоечная машина	 mosógép,mosogatógép,szekrény,elmosogatni,mosogatógép
+russ,medium,однако,редко,блестяще,часто,однако 	azonban,ritkán,ragyogó,gyakran,azonban
+russ,medium,всегда,к сожалению,успешного,с удовольствием,к сожалению	 mindig,sajnos,sikeres,örömmel,sajnos
+russ,medium,розмарин,имбирь,тимьян,базилик,тимьян 	rozmaring,gyömbér,kakukkfű,bazsalikom,kakukkfű
+russ,medium,редко,часто,однако,поскольку,редко ritkán,gyakran,azonban,mióta,ritkán
+russ,medium,всегда,обычно,часто,редко,обычно 	mindig,általában,gyakran,ritkán,általában
+russ,medium,тимьян,достижение,успешный,профессия,достижение		kakukkfű,eredmény,sikeres,szakma,eredmény
+	 	  
+finn,medium,erinomainen,hyvä,surullinen,loistava,erinomainen	kiváló,jó,szomorú,ragyogó,kiváló
+finn,medium,keittiö,olohuone,ravintola,kylpyhuone,ravintola	konyha,nappali,étterem,fürdőszoba,étterem
+finn,medium,sitten,muuten,yleensä,valitettavasti,muuten		akkor,egyébként,általában,sajnos,egyébként
+finn,medium,pesukone,astianpesukone,kaappi,pesu,astianpesukone	mosógép,mosogatógép,szekrény,elmosogatni,mosogatógép
+finn,medium,ammatti,sitten,loistava,usein,sitten	szakma,akkor,ragyogó,gyakran,akkor
+finn,medium,valitettavasti sitten saavutus,vaikka,valitettavasti 	sajnos,akkor,eredmény,habár,sajnos
+finn,medium,rosmariini,inkivääri,timjami,basilika,timjami	rozmaring,gyömbér,kakukkfű,bazsalikom,kakukkfű
+finn,medium,harvoin, usein, muuten, koska, harvoin		ritkán,gyakran,egyébként,mert,ritkán
+finn,medium,aina,yleensä,usein,harvoin,yleensä	mindig,általában,gyakran,ritkán,általában
+finn,medium,thyme,saavutus,onnistunut,ammatti,saavutus		kakukkfű,eredmény,sikeres,szakma,eredmény
+
