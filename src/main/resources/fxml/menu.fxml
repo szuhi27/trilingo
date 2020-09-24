@@ -122,5 +122,33 @@
             </Button>
          </children>
       </Pane>
+      <ImageView fx:id="menuIV" fitHeight="50.0" fitWidth="100.0" layoutX="42.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true" />
+      <Button layoutX="42.0" layoutY="26.0" mnemonicParsing="false" onAction="#ToMenu" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: transparent;" text="Menu">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="muteIV" fitHeight="50.0" fitWidth="100.0" layoutX="668.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true" />
+      <Button layoutX="668.0" layoutY="26.0" mnemonicParsing="false" onAction="#Mute" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: transparent;" text="Mute">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="exitIV" fitHeight="50.0" fitWidth="100.0" layoutX="42.0" layoutY="86.0" pickOnBounds="true" preserveRatio="true" />
+      <Button layoutX="42.0" layoutY="86.0" mnemonicParsing="false" onAction="#Exit" prefHeight="50.0" prefWidth="100.0" style="-fx-background-color: transparent;" text="Exit">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Button>
+      <StackPane fx:id="resultSP" layoutX="257.0" layoutY="217.0" prefHeight="207.0" prefWidth="281.0" visible="false">
+         <children>
+            <ImageView fx:id="resultIV" fitHeight="260.0" fitWidth="320.0" pickOnBounds="true" preserveRatio="true" />
+            <Text fx:id="resultT" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="281.0">
+               <font>
+                  <Font size="40.0" />
+               </font>
+            </Text>
+         </children>
+      </StackPane>
    </children>
 </Pane>
