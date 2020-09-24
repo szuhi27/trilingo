@@ -57,5 +57,41 @@
             </Button>
          </children>
       </Pane>
+      <Pane fx:id="difficultiesP" layoutX="271.0" layoutY="234.0" prefHeight="316.0" prefWidth="258.0" visible="false">
+         <children>
+            <Text fill="WHITE" layoutX="-4.0" layoutY="26.0" stroke="BLACK" strokeType="OUTSIDE" text="Válassz nehézséget:" textAlignment="CENTER" wrappingWidth="266.13671875">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Text>
+            <ImageView fx:id="easyIV" fitHeight="70.0" fitWidth="230.0" layoutX="15.0" layoutY="42.0" pickOnBounds="true" />
+            <Button layoutX="14.0" layoutY="41.0" mnemonicParsing="false" onAction="#Easy" prefHeight="72.0" prefWidth="232.0" style="-fx-border-color: transparent; -fx-border-width: 0; -fx-background-radius: 0; -fx-background-color: transparent;" text="Kezdő">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Button>
+            <ImageView fx:id="mediumIV" fitHeight="70.0" fitWidth="230.0" layoutX="15.0" layoutY="124.0" pickOnBounds="true" />
+            <Button layoutX="14.0" layoutY="123.0" mnemonicParsing="false" onAction="#Medium" prefHeight="72.0" prefWidth="232.0" style="-fx-background-color: transparent;" text="Haladó">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Button>
+            <ImageView fx:id="proIV" fitHeight="70.0" fitWidth="230.0" layoutX="15.0" layoutY="206.0" pickOnBounds="true" />
+            <Button layoutX="14.0" layoutY="205.0" mnemonicParsing="false" onAction="#Pro" prefHeight="72.0" prefWidth="232.0" style="-fx-background-color: transparent;" text="Szakértő">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
    </children>
 </Pane>
