@@ -21,5 +21,41 @@
             <Font size="15.0" />
          </font>
       </Text>
+      <Pane fx:id="languagesP" layoutX="271.0" layoutY="234.0" prefHeight="316.0" prefWidth="258.0">
+         <children>
+            <Text fill="WHITE" layoutX="13.0" layoutY="22.0" stroke="BLACK" strokeType="OUTSIDE" text="Válassz nyelvet:" textAlignment="CENTER" wrappingWidth="231.9375">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Text>
+            <ImageView fx:id="engIV" fitHeight="70.0" fitWidth="230.0" layoutX="14.0" layoutY="41.0" pickOnBounds="true" />
+            <Button layoutX="14.0" layoutY="41.0" mnemonicParsing="false" onAction="#Eng" prefHeight="70.0" prefWidth="230.0" style="-fx-border-color: transparent; -fx-border-width: 0; -fx-background-radius: 0; -fx-background-color: transparent;" text="Angol">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Button>
+            <ImageView fx:id="russIV" fitHeight="70.0" fitWidth="230.0" layoutX="14.0" layoutY="123.0" pickOnBounds="true" />
+            <Button layoutX="14.0" layoutY="123.0" mnemonicParsing="false" onAction="#Russ" prefHeight="70.0" prefWidth="230.0" style="-fx-border-color: transparent; -fx-border-width: 0; -fx-background-radius: 0; -fx-background-color: transparent;" text="Orosz">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Button>
+            <ImageView fx:id="finnIV" fitHeight="70.0" fitWidth="230.0" layoutX="14.0" layoutY="205.0" pickOnBounds="true" />
+            <Button layoutX="14.0" layoutY="205.0" mnemonicParsing="false" onAction="#Finn" prefHeight="70.0" prefWidth="230.0" style="-fx-border-color: transparent; -fx-border-width: 0; -fx-background-radius: 0; -fx-background-color: transparent;" text="Finn">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
    </children>
 </Pane>
