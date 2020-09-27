@@ -7,7 +7,7 @@ eng,easy,blue,red,green,yellow,blue,Kék
 eng,easy,green,orange,blue,red,orange,Narancssárga
 eng,easy,purple,grey,black,white,black,Fekete
 eng,easy,daughter,brother,girl,sister,sister,Lánytestvér
-eng,easy,boy,son,brother,sister,brother	fiú,fia,Fiútestvér
+eng,easy,boy,son,brother,sister,brother,Fiútestvér
 e,m,p,t,y,l,i,n,e
 russ,easy,сестра,мать,бабушка,папа,мать,Anya
 russ,easy,папа,сын,семья,брат,папа,Apa
