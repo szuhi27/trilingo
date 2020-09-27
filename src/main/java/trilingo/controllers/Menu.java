@@ -37,7 +37,7 @@ public class Menu {
     public StackPane resultSP;
 
     private String language, chosenDiff;
-    private String[] answ1, answ2, answ3, answ4, correctAnsw, question, images;
+    private String[] answ1, answ2, answ3, answ4, correctAnsw, question;
     private int[] previousQuestions;
 
     private int numberOfQuestionsAsked, questionNumber, numberOfQuestionsAvailable = 0, goodAnswers;
@@ -51,20 +51,20 @@ public class Menu {
     }
 
      public void LoadImages() {
-        bcgIV.setImage(new Image(getClass().getResource("/images/bcgs/bcg.png").toExternalForm()));
-        answ1IV.setImage(new Image(getClass().getResource("/images/bcgs/answBcg.png").toExternalForm()));
-        answ2IV.setImage(new Image(getClass().getResource("/images/bcgs/answBcg.png").toExternalForm()));
-        answ3IV.setImage(new Image(getClass().getResource("/images/bcgs/answBcg.png").toExternalForm()));
-        answ4IV.setImage(new Image(getClass().getResource("/images/bcgs/answBcg.png").toExternalForm()));
-        engIV.setImage(new Image(getClass().getResource("/images/bcgs/diffBcg.png").toExternalForm()));
-        russIV.setImage(new Image(getClass().getResource("/images/bcgs/diffBcg.png").toExternalForm()));
-        finnIV.setImage(new Image(getClass().getResource("/images/bcgs/diffBcg.png").toExternalForm()));
-        easyIV.setImage(new Image(getClass().getResource("/images/bcgs/diffBcg.png").toExternalForm()));
-        mediumIV.setImage(new Image(getClass().getResource("/images/bcgs/diffBcg.png").toExternalForm()));
-        proIV.setImage(new Image(getClass().getResource("/images/bcgs/diffBcg.png").toExternalForm()));
-        menuIV.setImage(new Image(getClass().getResource("/images/bcgs/buttonBcg.png").toExternalForm()));
-        muteIV.setImage(new Image(getClass().getResource("/images/bcgs/buttonBcg.png").toExternalForm()));
-        exitIV.setImage(new Image(getClass().getResource("/images/bcgs/buttonBcg.png").toExternalForm()));
+        bcgIV.setImage(new Image(getClass().getResource("/images/bcg.png").toExternalForm()));
+        answ1IV.setImage(new Image(getClass().getResource("/images/answBcg.png").toExternalForm()));
+        answ2IV.setImage(new Image(getClass().getResource("/images/answBcg.png").toExternalForm()));
+        answ3IV.setImage(new Image(getClass().getResource("/images/answBcg.png").toExternalForm()));
+        answ4IV.setImage(new Image(getClass().getResource("/images/answBcg.png").toExternalForm()));
+        engIV.setImage(new Image(getClass().getResource("/images/diffBcg.png").toExternalForm()));
+        russIV.setImage(new Image(getClass().getResource("/images/diffBcg.png").toExternalForm()));
+        finnIV.setImage(new Image(getClass().getResource("/images/diffBcg.png").toExternalForm()));
+        easyIV.setImage(new Image(getClass().getResource("/images/diffBcg.png").toExternalForm()));
+        mediumIV.setImage(new Image(getClass().getResource("/images/diffBcg.png").toExternalForm()));
+        proIV.setImage(new Image(getClass().getResource("/images/diffBcg.png").toExternalForm()));
+        menuIV.setImage(new Image(getClass().getResource("/images/buttonBcg.png").toExternalForm()));
+        muteIV.setImage(new Image(getClass().getResource("/images/buttonBcg.png").toExternalForm()));
+        exitIV.setImage(new Image(getClass().getResource("/images/buttonBcg.png").toExternalForm()));
     }
 
     public void Eng(ActionEvent event){
@@ -114,6 +114,7 @@ public class Menu {
     }
 
     private void SetVariables() {
+        goodAnswers = 0;
         previousQuestions = new int[numberOfQuestionsAvailable];
         for(int i = 0; i< numberOfQuestionsAvailable; i++){
             previousQuestions[i] = -1;
@@ -209,7 +210,7 @@ public class Menu {
         answ2B.setText(answ2[questionNumber]);
         answ3B.setText(answ3[questionNumber]);
         answ4B.setText(answ4[questionNumber]);
-        questionIV.setImage(new Image(getClass().getResource("/images/"+language+"/"+chosenDiff+"/"+images[questionNumber]).toExternalForm()));
+        questionT.setText(question[questionNumber]);
     }
 
     public void CheckAnswer(ActionEvent event){
@@ -222,15 +223,13 @@ public class Menu {
     }
 
     public void EndGame(){
-
         gameP.setVisible(false);
         resultSP.setVisible(true);
-        resultIV.setImage(new Image(getClass().getResource("/images/bcgs/resultBcg.png").toExternalForm()));
+        resultIV.setImage(new Image(getClass().getResource("/images/resultBcg.png").toExternalForm()));
         if (goodAnswers == numberOfQuestionsAsked) {
             resultT.setText("Good job! You answered every question right!");
         } else {
             double percent = (((double)goodAnswers/numberOfQuestionsAsked)*100);
-            System.out.println(percent);
             resultT.setText("You had " + goodAnswers+ "/" + numberOfQuestionsAsked + " ("+ (int)percent +"%) right answer(s).");
         }
     }

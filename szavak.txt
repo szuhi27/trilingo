@@ -58,7 +58,7 @@ finn,medium,keittiö,olohuone,ravintola,kylpyhuone,ravintola,Étterem
 finn,medium,sitten,muuten,yleensä,valitettavasti,muuten,Egyébként
 finn,medium,pesukone,astianpesukone,kaappi,pesu,astianpesukone,Mosogatógép
 finn,medium,ammatti,sitten,loistava,usein,sitten,Akkor
-finn,medium,valitettavasti sitten saavutus,vaikka,valitettavasti,Sajnos
+finn,medium,valitettavasti,sitten,saavutus,vaikka,valitettavasti,Sajnos
 finn,medium,rosmariini,inkivääri,timjami,basilika,timjami,Kakukkfű
 finn,medium,harvoin,usein,muuten,koska,harvoin,Ritkán
 finn,medium,aina,yleensä,usein,harvoin,yleensä,Általában
@@ -89,9 +89,9 @@ e,m,p,t,y,l,i,n,e
 finn,pro,ahkerasti,ovelasti,riittävästi,oletettavasti,ovelasti,Ravaszul
 finn,pro,tehokkaasti,ennustettavasti,riittävästi,ahkerasti,riittävästi,Megfelelően
 finn,pro,tehokkaasti,riittävästi,ennustettavasti,ahkerasti,ahkerasti,Szorgalmasan
-finn,pro,vilkaisu,tulkki,ehdokkuus,epäilyttävä syytös,tulkki,Fordító
+finn,pro,vilkaisu,tulkki,ehdokkuus,epäilyttävä,tulkki,Fordító
 finn,pro,esi-isä,monipuolisuus,hyväksikäyttö,ihmelääke,ihmelääke,Csodaszer
-finn,pro,hyödyntääparemmuus,säilöntäaine,etusija,hyödynnä,Kihasználni
+finn,pro,hyödynnä,paremmuus,säilöntäaine,etusija,hyödynnä,Kihasználni
 finn,pro,etusija,röykkiö,vilkaisu,ehdokkuus,röykkiö,Halom
 finn,pro,aleneva,valtikka,käyttää,sidosryhmä,valtikka,Jogar
 finn,pro,vedonlyönti,pantti,juhlallinen,merkittävä,vedonlyönti,Fogadás
