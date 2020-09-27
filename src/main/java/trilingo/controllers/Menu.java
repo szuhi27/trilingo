@@ -143,7 +143,15 @@ public class Menu {
     private void EndGame() {
     }
 
-    private void music() {
+    private void music(){
+        Media med = new Media(getClass().getResource("/sounds/musico.mp3").toExternalForm());
+        a =new MediaPlayer(med);
+        a.setVolume(0.5);
+        a.setAutoPlay(true);
+        a.setOnEndOfMedia(new Runnable() {
+            public void run() {
+                a.seek(Duration.ZERO);
+            }
+        });
     }
-
 }
