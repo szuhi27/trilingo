@@ -50,7 +50,7 @@ public class Menu {
         music();
     }
 
-     public void LoadImages() {
+    public void LoadImages() {
         bcgIV.setImage(new Image(getClass().getResource("/images/bcg.png").toExternalForm()));
         answ1IV.setImage(new Image(getClass().getResource("/images/answBcg.png").toExternalForm()));
         answ2IV.setImage(new Image(getClass().getResource("/images/answBcg.png").toExternalForm()));
@@ -260,7 +260,7 @@ public class Menu {
             }
         });
     }
-    
+
     public void ToMenu(ActionEvent event){
         languagesP.setVisible(true);
         gameP.setVisible(false);
