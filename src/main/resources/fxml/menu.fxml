@@ -93,7 +93,7 @@
             </Button>
          </children>
       </Pane>
-      <Pane fx:id="gameP" layoutX="132.0" layoutY="170.0" prefHeight="408.0" prefWidth="569.0" visible="false">
+      <Pane fx:id="gameP" layoutX="115.0" layoutY="170.0" prefHeight="408.0" prefWidth="569.0" visible="false">
          <children>
             <StackPane layoutX="165.0" layoutY="7.0" prefHeight="180.0" prefWidth="240.0">
                <children>
@@ -149,7 +149,7 @@
             <Font name="System Bold" size="22.0" />
          </font>
       </Button>
-      <StackPane fx:id="resultSP" layoutX="257.0" layoutY="217.0" prefHeight="207.0" prefWidth="281.0" visible="false">
+      <StackPane fx:id="resultSP" layoutX="240.0" layoutY="219.0" prefHeight="207.0" prefWidth="281.0" visible="false">
          <children>
             <ImageView fx:id="resultIV" fitHeight="260.0" fitWidth="320.0" pickOnBounds="true" preserveRatio="true" />
             <Text fx:id="resultT" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="281.0">
