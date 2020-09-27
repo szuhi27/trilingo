@@ -1,5 +1,5 @@
 eng,easy,sister,mother,grandmother,dad,mother,Anya
-eng,easy,dad,son,family,brother,dad	apa,fia,Apa
+eng,easy,dad,son,family,brother,dad,Apa
 eng,easy,home,kitchen,family,garden,family,Család
 eng,easy,girl,boy,dad,son,boy,Fiú
 eng,easy,girl,sister,boy,mother,girl,Lány
