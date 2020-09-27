@@ -6,7 +6,7 @@ import javafx.event.ActionEvent;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.Pane;
-import javafx.scene.layout.VBox;
+import javafx.scene.media.MediaPlayer;
 import javafx.scene.text.Text;
 import javafx.scene.layout.StackPane;
 
@@ -41,26 +41,22 @@ public class Menu {
         music();
     }
 
-    public void ChooseLanguage(ActionEvent event){
-        language = ((Button)event.getSource()).getText();
-        System.out.println(language);
-        languagesVB.setVisible(false);
-        difficultiesVB.setVisible(true);
+
+    public void Game(){
+        LoadData();
+        SetVariables();
     }
 
-    public void ChooseDifficulty(ActionEvent event){
-        difficulty = ((Button)event.getSource()).getText();
-        System.out.println(difficulty);
-        difficultiesVB.setVisible(false);
-        gameP.setVisible(true);
-        game();
+    private void SetVariables() {
+        previousQuestions = new int[numberOfQuestionsAvailable];
+        for(int i = 0; i< numberOfQuestionsAvailable; i++){
+            previousQuestions[i] = -1;
+        }
+        numberOfQuestionsAsked = 0;
     }
 
-    public void game(){
-        //Ide kerül majd a körök cseréje stb.
-        questionIV.setImage(new Image(getClass().getResource("/images/bcgs/ph.png").toExternalForm()));
-
-
+    private void LoadData(){
+        
     }
 
 }
