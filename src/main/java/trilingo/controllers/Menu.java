@@ -32,7 +32,7 @@ public class Menu {
     @FXML
     public Button answ1B, answ2B, answ3B, answ4B;
     @FXML
-    public Text resultT, questionT;
+    public Text resultT, questionT, answ1T, answ2T, answ3T, answ4T;
     @FXML
     public StackPane resultSP;
 
@@ -206,9 +206,13 @@ public class Menu {
     }
 
     public void SetStuff(){
+        answ1T.setText(answ1[questionNumber]);
         answ1B.setText(answ1[questionNumber]);
+        answ2T.setText(answ2[questionNumber]);
         answ2B.setText(answ2[questionNumber]);
+        answ3T.setText(answ3[questionNumber]);
         answ3B.setText(answ3[questionNumber]);
+        answ4T.setText(answ4[questionNumber]);
         answ4B.setText(answ4[questionNumber]);
         questionT.setText(question[questionNumber]);
     }
@@ -227,24 +231,32 @@ public class Menu {
         resultSP.setVisible(true);
         resultIV.setImage(new Image(getClass().getResource("/images/resultBcg.png").toExternalForm()));
         if (goodAnswers == numberOfQuestionsAsked) {
-            if (language.equals("eng")) {
-                resultT.setText("Good job! You answered every question right!");
-            } else if (language.equals("russ")){
-                resultT.setText("Молодец! Вы правильно ответили на все вопросы!");
-            } else if (language.equals("finn")){
-                resultT.setText("Hyvää työtä! Vastasit jokaiseen kysymykseen oikein!");
+            switch (language) {
+                case "eng":
+                    resultT.setText("Good job! You answered every question right!");
+                    break;
+                case "russ":
+                    resultT.setText("Молодец! Вы правильно ответили на все вопросы!");
+                    break;
+                case "finn":
+                    resultT.setText("Hyvää työtä! Vastasit jokaiseen kysymykseen oikein!");
+                    break;
             }
         } else {
             double percent = (((double) goodAnswers / numberOfQuestionsAsked) * 100);
-            if (language.equals("eng")) {
-                resultT.setText("You had " + goodAnswers + "/" + numberOfQuestionsAsked +
-                        " (" + (int) percent + "%) right answer(s).");
-            } else if (language.equals("russ")){
-                resultT.setText("У вас было " + goodAnswers + "/" + numberOfQuestionsAsked +
-                        " (" + (int) percent + "%) хороших ответ(ов).");
-            } else if (language.equals("finn")){
-                resultT.setText("Sinulla oli " + goodAnswers + "/" + numberOfQuestionsAsked +
-                        " (" + (int) percent + "%) hyvä(ä) vastaus(ta).");
+            switch (language) {
+                case "eng":
+                    resultT.setText("You had " + goodAnswers + "/" + numberOfQuestionsAsked +
+                            " (" + (int) percent + "%) right answer(s).");
+                    break;
+                case "russ":
+                    resultT.setText("У вас было " + goodAnswers + "/" + numberOfQuestionsAsked +
+                            " (" + (int) percent + "%) хороших ответ(ов).");
+                    break;
+                case "finn":
+                    resultT.setText("Sinulla oli " + goodAnswers + "/" + numberOfQuestionsAsked +
+                            " (" + (int) percent + "%) hyvä(ä) vastaus(ta).");
+                    break;
             }
         }
     }

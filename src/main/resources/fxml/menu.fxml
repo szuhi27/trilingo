@@ -106,28 +106,56 @@
                </children>
             </StackPane>
             <ImageView fx:id="answ1IV" fitHeight="100.0" fitWidth="200.0" layoutX="50.0" layoutY="195.0" pickOnBounds="true" preserveRatio="true" />
-            <Button fx:id="answ1B" alignment="CENTER" contentDisplay="CENTER" layoutX="50.0" layoutY="195.0" mnemonicParsing="false" onAction="#CheckAnswer" prefHeight="100.0" prefWidth="200.0" style="-fx-border-color: transparent; -fx-border-width: 0; -fx-background-radius: 0; -fx-background-color: transparent;" text="answer1" textAlignment="CENTER">
+            <Button fx:id="answ1B" alignment="CENTER" contentDisplay="CENTER" layoutX="50.0" layoutY="195.0" mnemonicParsing="false" onAction="#CheckAnswer" prefHeight="100.0" prefWidth="200.0" style="-fx-border-color: transparent; -fx-border-width: 0; -fx-background-radius: 0; -fx-background-color: transparent;" textAlignment="CENTER" textFill="TRANSPARENT">
                <font>
                   <Font size="15.0" />
                </font>
+               <graphic>
+                  <Text fx:id="answ1T" strokeType="OUTSIDE" strokeWidth="0.0" text="answ1" textAlignment="CENTER" wrappingWidth="178.39996337890625">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Text>
+               </graphic>
             </Button>
             <ImageView fx:id="answ2IV" fitHeight="100.0" fitWidth="200.0" layoutX="50.0" layoutY="301.0" pickOnBounds="true" preserveRatio="true" />
-            <Button fx:id="answ2B" alignment="CENTER" contentDisplay="CENTER" layoutX="50.0" layoutY="301.0" mnemonicParsing="false" onAction="#CheckAnswer" prefHeight="100.0" prefWidth="200.0" style="-fx-border-color: transparent; -fx-border-width: 0; -fx-background-radius: 0; -fx-background-color: transparent;" text="answer2" textAlignment="CENTER">
+            <Button fx:id="answ2B" alignment="CENTER" contentDisplay="CENTER" layoutX="50.0" layoutY="301.0" mnemonicParsing="false" onAction="#CheckAnswer" prefHeight="100.0" prefWidth="200.0" style="-fx-border-color: transparent; -fx-border-width: 0; -fx-background-radius: 0; -fx-background-color: transparent;" textAlignment="CENTER" textFill="TRANSPARENT">
                <font>
                   <Font size="15.0" />
                </font>
+               <graphic>
+                  <Text fx:id="answ2T" strokeType="OUTSIDE" strokeWidth="0.0" text="answ2" textAlignment="CENTER" wrappingWidth="178.39996337890625">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Text>
+               </graphic>
             </Button>
             <ImageView fx:id="answ3IV" fitHeight="100.0" fitWidth="200.0" layoutX="311.0" layoutY="195.0" pickOnBounds="true" preserveRatio="true" />
-            <Button fx:id="answ3B" alignment="CENTER" contentDisplay="CENTER" layoutX="311.0" layoutY="195.0" mnemonicParsing="false" onAction="#CheckAnswer" prefHeight="100.0" prefWidth="200.0" style="-fx-border-color: transparent; -fx-border-width: 0; -fx-background-radius: 0; -fx-background-color: transparent;" text="answer3" textAlignment="CENTER">
+            <Button fx:id="answ3B" alignment="CENTER" contentDisplay="CENTER" layoutX="311.0" layoutY="195.0" mnemonicParsing="false" onAction="#CheckAnswer" prefHeight="100.0" prefWidth="200.0" style="-fx-border-color: transparent; -fx-border-width: 0; -fx-background-radius: 0; -fx-background-color: transparent;" textAlignment="CENTER" textFill="TRANSPARENT">
                <font>
                   <Font size="15.0" />
                </font>
+               <graphic>
+                  <Text fx:id="answ3T" strokeType="OUTSIDE" strokeWidth="0.0" text="answ3" textAlignment="CENTER" wrappingWidth="178.39996337890625">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Text>
+               </graphic>
             </Button>
             <ImageView fx:id="answ4IV" fitHeight="100.0" fitWidth="200.0" layoutX="311.0" layoutY="301.0" pickOnBounds="true" preserveRatio="true" />
-            <Button fx:id="answ4B" alignment="CENTER" contentDisplay="CENTER" layoutX="311.0" layoutY="301.0" mnemonicParsing="false" onAction="#CheckAnswer" prefHeight="100.0" prefWidth="200.0" style="-fx-border-color: transparent; -fx-border-width: 0; -fx-background-radius: 0; -fx-background-color: transparent;" text="answer4" textAlignment="CENTER">
+            <Button fx:id="answ4B" alignment="CENTER" contentDisplay="CENTER" layoutX="311.0" layoutY="301.0" mnemonicParsing="false" onAction="#CheckAnswer" prefHeight="100.0" prefWidth="200.0" style="-fx-border-color: transparent; -fx-border-width: 0; -fx-background-radius: 0; -fx-background-color: transparent;" textAlignment="CENTER" textFill="TRANSPARENT">
                <font>
                   <Font size="15.0" />
                </font>
+               <graphic>
+                  <Text fx:id="answ4T" strokeType="OUTSIDE" strokeWidth="0.0" text="answ4" textAlignment="CENTER" wrappingWidth="178.39996337890625">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Text>
+               </graphic>
             </Button>
          </children>
       </Pane>
