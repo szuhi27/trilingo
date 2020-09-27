@@ -2,6 +2,7 @@ package trilingo.controllers;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
+import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.Pane;
 import javafx.scene.media.MediaPlayer;
@@ -26,12 +27,12 @@ public class Menu {
     @FXML
     public Button answ1B, answ2B, answ3B, answ4B;
     @FXML
-    public Text resultT;
+    public Text resultT, questionT;
     @FXML
     public StackPane resultSP;
 
     private String language, chosenDiff;
-    private String[] answ1, answ2, answ3, answ4, correctAnsw, images;
+    private String[] answ1, answ2, answ3, answ4, correctAnsw, question;
     private int[] previousQuestions;
 
     private int numberOfQuestionsAsked, questionNumber, numberOfQuestionsAvailable = 0, goodAnswers;
@@ -44,10 +45,14 @@ public class Menu {
         music();
     }
 
+    private void LoadImages() {
+    }
+
 
     public void Game(){
         LoadData();
         SetVariables();
+        SetQuestion();
     }
 
     private void SetVariables() {
@@ -56,6 +61,7 @@ public class Menu {
             previousQuestions[i] = -1;
         }
         numberOfQuestionsAsked = 0;
+        questionIV.setImage(new Image(getClass().getResource("/images/"+chosenDiff+".png").toExternalForm()));
     }
 
     private void LoadData(){
@@ -65,11 +71,12 @@ public class Menu {
         answ3 = new String[999];
         answ4 = new String[999];
         correctAnsw = new String[999];
+        question = new String[999];
         int i = 0;
         FileReader fr;
         BufferedReader reader = null;
         try {
-            fr = new FileReader("qaa.txt");
+            fr = new FileReader("szavak.txt");
             reader = new BufferedReader(fr);
             String currentLine = reader.readLine();
 
@@ -82,7 +89,8 @@ public class Menu {
                     answ2[i] = resultDetail[ra[1]];
                     answ3[i] = resultDetail[ra[2]];
                     answ4[i] = resultDetail[ra[3]];
-                    correctAnsw[i++] = resultDetail[6];
+                    correctAnsw[i] = resultDetail[6];
+                    question[i++] = resultDetail[7];
                     ++numberOfQuestionsAvailable;
                 }
                 currentLine = reader.readLine();
@@ -109,6 +117,33 @@ public class Menu {
             ar[index] = ar[i];
             ar[i] = a;
         }
+    }
+
+    private void SetQuestion() {
+        if (numberOfQuestionsAsked < numberOfQuestionsAvailable) {
+            random();
+            SetStuff();
+            ++numberOfQuestionsAsked;
+        } else {
+            EndGame();
+        }
+    }
+
+    private void random() {
+    }
+
+    private void SetStuff() {
+        answ1B.setText(answ1[questionNumber]);
+        answ2B.setText(answ2[questionNumber]);
+        answ3B.setText(answ3[questionNumber]);
+        answ4B.setText(answ4[questionNumber]);
+        questionT.setText(question[questionNumber]);
+    }
+
+    private void EndGame() {
+    }
+
+    private void music() {
     }
 
 }

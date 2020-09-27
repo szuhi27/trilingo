@@ -1,99 +1,98 @@
-eng,easy,sister,mother,grandmother,dad,mother	lánytestvér,anya,nagymama,apa,anya
-eng,easy,dad,son,family,brother,dad	apa,fia valakinek,család,fiútestvér,apa
-eng,easy,home,kitchen,family,garden,family	otthon,konyha,család,kert,család
-eng,easy,girl,boy,dad,son,boy	 lány,fiú,apa,fia valakinek,fiú
-eng,easy,girl,sister,boy,mother,girl	 lány,lánytestvér,fiú,anya,lány
-eng,easy,blue,red,green,yellow,blue		kék,piros,zöld,sárga,kék
-eng,easy,green,orange,blue,red,orange	zöld,narancssárga,kék,piros,narancssárga
-eng,easy,purple,grey,black,white,black	lila,szürke,fekete,fehér,fekete
-eng,easy,daughter,brother,girl,sister,sister 	lánya valakinek,fútestvér,lány,lánytestvér,lánytestvér
-eng,easy,boy,son,brother,sister,brother	fiú,fia valakinek,fiútestvér,lánytestvér,fiútestvér
-
-russ,easy,сестра,мать,бабушка,папа,мать 	lánytestvér,anya,nagymama,apa,anya
-russ,easy,папа,сын,семья,брат,папа 	apa,fia valakinek,család,fiútestvér,apa
-russ,easy,дом,кухня,семья,сад,семья	 otthon,konyha,család,kert,család
-russ,easy,девочка,мальчик,папа,сын,мальчик	 lány, fiú,apa, fia valakinek,fiú
-russ,easy,девочка,сестра,мальчик,мать,девочка	 lány,lánytestvér,fiú,anya,lány
-russ,easy,синий,красный,зеленый,желтый,синий 	kék,piros,zöld,sárga,kék
-russ,easy,зеленый,оранжевый,синий,красный,оранжевый 	zöld,narancssárga,kék,piros,narancssárga
-russ,easy,фиолетовый,серый,черный,белый,черный  	lila,szürke,fekete,fehér,fekete
-russ,easy,дочь,брат,девочка,сестра,сестра 	lánya valakinek,fútestvér,lány,lánytestvér,lánytestvér
-russ,easy,мальчик,сын,брат,сестра,брат 	fiú,fia valakinek,fiútestvér,lánytestvér,fiútestvér
-
-finn,easy,sisko,äiti,isoäiti,isä,äiti	lánytestvér,anya,nagymama,apa,anya
-finn,easy,isä,poika,perhe,veli,isä	apa,fia valakinek,család,fiútestvér,apa
-finn,easy,koti,keittiö,perhe,puutarha,perhe	otthon,konyha,család,kert,család
-finn,easy,tyttö,poika,isä,äiti,poika	lány,fia valakinek,apa,anya,fia valakinek
-finn,easy,tyttö,sisko,poika,äiti,tyttö	lány,lánytestvér,fia valakinek,anya,lány
-finn,easy,sininen,punainen,vihreä,keltainen,sininen	kék,piros,zöld,sárga,kék
-finn,easy,vihreä,oranssi,sininen,punainen,oranssi	zöld,narancssárga,kék,piros,narancssárga
-finn,easy,violetti,harmaa,musta,valkoinen,musta	lila,szürke,fekete,fehér,fekete
-finn,easy,tytär,veli,tyttö,sisko,sisko	lánya valakinek,fútestvér,lány,lánytestvér,lánytestvér
-finn,easy,perhe,poika,veli,sisko,veli	család,fia valakinek,fiútestvér,lánytestvér,fiútestvér
-
-eng,medium,excellent,good,sad,brilliant,excellent 	 kiváló,jó,szomorú,ragyogó,kiváló
-eng,medium,kitchen,living room,restaurant,bathroom,restaurant 	konyha,nappali,étterem,fürdőszoba,étterem
-eng,medium,while,by the way,however,usually,by the way 	miközben,egyébként,azonban,általában,egyébként
-eng,medium,washing machine,dishwasher,cabinet,wash up,dishwasher  	mosógép,mosogatógép,szekrény,elmosogatni,mosogatógép
-eng,medium,however,actually,brilliant,often,however    azonban,tulajdonképpen,csodálatos,gyakran,azonban
-eng,medium,sadly,unfortunately,unluckily,regrettably,unfortunately 	szomorúan,sajnos,szerencsétlenül,megbánóan,sajnos
-eng,medium,rosemary,ginger,thyme,basil,thyme   rozmaring,gyömbér,kakukkfű,bazsalikom,kakukkfű
-eng,medium,although,actually,however,since,although    habár,tulajdonképpen,azonban,mióta,habár
-eng,medium,always,usually,often,rarely,usually mindig,általában,gyakran,ritkán,általában
-eng,medium,thyme,achievement,succesful,profession,achievement   kakukkfű,eredmény,sikeres,szakma,eredmény
-
-russ,medium,отлично,хорошо,грустно,блестяще,отлично 	kiváló,jó,szomorú,ragyogó,kiváló
-russ,medium,кухня,гостиная,ресторан,ванная,ресторан 	konyha,nappali,étterem,fürdőszoba,étteremú
-russ,medium,однако,кстати,редко,к сожалению,кстати, 	azonban,egyébként,ritkán,sajnos,egyébként
-russ,medium,стиральная машина,посудомоечная машина,шкаф,мытье посуды,посудомоечная машина	 mosógép,mosogatógép,szekrény,elmosogatni,mosogatógép
-russ,medium,однако,редко,блестяще,часто,однако 	azonban,ritkán,ragyogó,gyakran,azonban
-russ,medium,всегда,к сожалению,успешного,с удовольствием,к сожалению	 mindig,sajnos,sikeres,örömmel,sajnos
-russ,medium,розмарин,имбирь,тимьян,базилик,тимьян 	rozmaring,gyömbér,kakukkfű,bazsalikom,kakukkfű
-russ,medium,редко,часто,однако,поскольку,редко ritkán,gyakran,azonban,mióta,ritkán
-russ,medium,всегда,обычно,часто,редко,обычно 	mindig,általában,gyakran,ritkán,általában
-russ,medium,тимьян,достижение,успешный,профессия,достижение		kakukkfű,eredmény,sikeres,szakma,eredmény
-	 	  
-finn,medium,erinomainen,hyvä,surullinen,loistava,erinomainen	kiváló,jó,szomorú,ragyogó,kiváló
-finn,medium,keittiö,olohuone,ravintola,kylpyhuone,ravintola	konyha,nappali,étterem,fürdőszoba,étterem
-finn,medium,sitten,muuten,yleensä,valitettavasti,muuten		akkor,egyébként,általában,sajnos,egyébként
-finn,medium,pesukone,astianpesukone,kaappi,pesu,astianpesukone	mosógép,mosogatógép,szekrény,elmosogatni,mosogatógép
-finn,medium,ammatti,sitten,loistava,usein,sitten	szakma,akkor,ragyogó,gyakran,akkor
-finn,medium,valitettavasti sitten saavutus,vaikka,valitettavasti 	sajnos,akkor,eredmény,habár,sajnos
-finn,medium,rosmariini,inkivääri,timjami,basilika,timjami	rozmaring,gyömbér,kakukkfű,bazsalikom,kakukkfű
-finn,medium,harvoin, usein, muuten, koska, harvoin		ritkán,gyakran,egyébként,mert,ritkán
-finn,medium,aina,yleensä,usein,harvoin,yleensä	mindig,általában,gyakran,ritkán,általában
-finn,medium,thyme,saavutus,onnistunut,ammatti,saavutus		kakukkfű,eredmény,sikeres,szakma,eredmény
-
-eng,pro,industriously,cunningly,adequately,presumably,cunningly		szorgalmasan,ravaszul,megfelelően,feltehetőleg,ravaszul
-eng,pro,efficiently,predictably,adequately,industriously,adequately	hatékonyan,megjósolhatóan,megfelelően,szorgalmasan,megfelelően
-eng,pro,efficiently,adequately,predictably,industriously,industriously	hatékonyan,megfelelően,megjósolhatóan,szorgalmasan,szorgalmasan
-eng,pro,glance,interpreter,candidacy,dubious accusation,interpreter	 pillantás,fordító,jelöltség,kétes vád,fordító
-eng,pro,ancestor,versatility,exploitation,panacea,panacea	előd,sokoldalúság,kizsákmányolás,csodaszer,csodaszer
-eng,pro,exploit,preservationist,superiority,precedence,exploit 	kihasználni,természetvédő,fölény,elsőbbség,kihasználni
-eng,pro,precedence,mound,glance,candidacy,mound	elsőbbség,halom,pillantás,jelöltség,halom
-eng,pro,condescend,scepter,utilize,stakeholder,scepter	leereszkedik,jogar,hasznosítani,érdekelt fél,jogar
-eng,pro,wager,pledge,solemn,portentous,wager	fogadás,fogadalom,ünnepélyes,baljóslatú,fogadás
-eng,pro,prognosticator,portentous,precedence,presumably,portentous	előrejelző,baljóslatú,elsőbbség,feltehetőleg,baljóslatú
-
-russ,pro,усердно,хитро,адекватно,предположительно,хитро	szorgalmasan,ravaszul,megfelelően,feltehetőleg,ravaszul
-russ,pro,эффективно,предсказуемо,адекватно,усердно,адекватно	hatékonyan,megjósolhatóan,megfelelően,szorgalmasan,megfelelően
-russ,pro,эффективно,адекватно,предсказуемо,усердно,усердно	hatékonyan,megfelelően,megjósolhatóan,szorgalmasan,szorgalmasan
-russ,pro,взгляд,переводчик,кандидатура,сомнительное обвинение,переводчик	pillantás,fordító,jelöltség,kétes vád,fordító
-russ,pro,предок,универсальность,эксплуатация,панацея,панацея	előd,sokoldalúság,kizsákmányolás,csodaszer,csodaszer
-russ,pro,эксплуатировать,охранник,превосходство,приоритет,эксплуатировать	kihasználni,természetvédő,fölény,elsőbbség,kihasználni
-russ,pro,приоритет,курган,взгляд,кандидатура,курган	elsőbbség,halom,pillantás,jelöltség,halom
-russ,pro,снисходительно,скипетр,использовать,акционер,скипетр	leereszkedik,jogar,hasznosítani,érdekelt fél,jogar
-russ,pro,пари,залог,торжественный,знаменательный,пари	fogadás,fogadalom,ünnepélyes,baljóslatú,fogadás
-russ,pro,предсказатель,знаменательный,приоритет,предположительно,знаменательный	előrejelző,baljóslatú,elsőbbség,feltehetőleg,baljóslatú
-
-finn,pro,ahkerasti,ovelasti,riittävästi,oletettavasti,ovelasti	szorgalmasan,ravaszul,megfelelően,feltehetőleg,ravaszul
-finn,pro,tehokkaasti,ennustettavasti,riittävästi,ahkerasti,riittävästi	hatékonyan,megjósolhatóan,megfelelően,szorgalmasan,megfelelően
-finn,pro,tehokkaasti,riittävästi,ennustettavasti,ahkerasti,ahkerasti	hatékonyan,megfelelően,megjósolhatóan,szorgalmasan,szorgalmasan
-finn,pro,vilkaisu,tulkki,ehdokkuus,epäilyttävä syytös,tulkki	pillantás,fordító,jelöltség,kétes vád,fordító
-finn,pro,esi-isä,monipuolisuus,hyväksikäyttö,ihmelääke,ihmelääke		előd,sokoldalúság,kizsákmányolás,csodaszer,csodaszer
-finn,pro,hyödyntääparemmuus,säilöntäaine,etusija,hyödynnä	kihasználni,természetvédő,fölény,elsőbbség,kihasználni
-finn,pro,etusija,röykkiö,vilkaisu,ehdokkuus,röykkiö	elsőbbség,halom,pillantás,jelöltség,halom
-finn,pro,aleneva,valtikka,käyttää,sidosryhmä,valtikka	leereszkedik,jogar,hasznosítani,érdekelt fél,jogar	
-finn,pro,vedonlyönti,pantti,juhlallinen,merkittävä,vedonlyönti	fogadás,fogadalom,ünnepélyes,baljóslatú,fogadás
-finn,pro,ennustin,merkittävä,etusija,oletettavasti,merkittävä	előrejelző,baljóslatú,elsőbbség,feltehetőleg,baljóslatú
-
+eng,easy,sister,mother,grandmother,dad,mother,Anya
+eng,easy,dad,son,family,brother,dad	apa,fia,Apa
+eng,easy,home,kitchen,family,garden,family,Család
+eng,easy,girl,boy,dad,son,boy,Fiú
+eng,easy,girl,sister,boy,mother,girl,Lány
+eng,easy,blue,red,green,yellow,blue,Kék
+eng,easy,green,orange,blue,red,orange,Narancssárga
+eng,easy,purple,grey,black,white,black,Fekete
+eng,easy,daughter,brother,girl,sister,sister,Lánytestvér
+eng,easy,boy,son,brother,sister,brother	fiú,fia,Fiútestvér
+e,m,p,t,y,l,i,n,e
+russ,easy,сестра,мать,бабушка,папа,мать,Anya
+russ,easy,папа,сын,семья,брат,папа,Apa
+russ,easy,дом,кухня,семья,сад,семья,Család
+russ,easy,девочка,мальчик,папа,сын,мальчик,Fiú
+russ,easy,девочка,сестра,мальчик,мать,девочка,Lány
+russ,easy,синий,красный,зеленый,желтый,синий,Kék
+russ,easy,зеленый,оранжевый,синий,красный,оранжевый,Narancssárga
+russ,easy,фиолетовый,серый,черный,белый,черный,Fekete
+russ,easy,дочь,брат,девочка,сестра,сестра,Lánytestvér
+russ,easy,мальчик,сын,брат,сестра,брат,Fiútestvér
+e,m,p,t,y,l,i,n,e
+finn,easy,sisko,äiti,isoäiti,isä,äiti,Anya
+finn,easy,isä,poika,perhe,veli,isä,Apa
+finn,easy,koti,keittiö,perhe,puutarha,perhe,Család
+finn,easy,tyttö,poika,isä,äiti,poika,Fia valakinek
+finn,easy,tyttö,sisko,poika,äiti,tyttö,Lány
+finn,easy,sininen,punainen,vihreä,keltainen,sininen,Kék
+finn,easy,vihreä,oranssi,sininen,punainen,oranssi,Narancssárga
+finn,easy,violetti,harmaa,musta,valkoinen,musta,Fekete
+finn,easy,tytär,veli,tyttö,sisko,sisko,Lánytestvér
+finn,easy,perhe,poika,veli,sisko,veli,Fiútestvér
+e,m,p,t,y,l,i,n,e
+eng,medium,excellent,good,sad,brilliant,excellent,Kiváló
+eng,medium,kitchen,living room,restaurant,bathroom,restaurant,Étterem
+eng,medium,while,by the way,however,usually,by the way,Egyébként
+eng,medium,washing machine,dishwasher,cabinet,wash up,dishwasher,Mosogatógép
+eng,medium,however,actually,brilliant,often,however,Azonban
+eng,medium,sadly,unfortunately,unluckily,regrettably,unfortunately,Sajnos
+eng,medium,rosemary,ginger,thyme,basil,thyme,Kakukkfű
+eng,medium,although,actually,however,since,although,Habár
+eng,medium,always,usually,often,rarely,usually,Általában
+eng,medium,thyme,achievement,succesful,profession,achievement,Eredmény
+e,m,p,t,y,l,i,n,e
+russ,medium,отлично,хорошо,грустно,блестяще,отлично,Kiváló
+russ,medium,кухня,гостиная,ресторан,ванная,ресторан,Étteremú
+russ,medium,однако,кстати,редко,к сожалению,кстати,Egyébként
+russ,medium,стиральная машина,посудомоечная машина,шкаф,мытье посуды,посудомоечная машина,Mosogatógép
+russ,medium,однако,редко,блестяще,часто,однако,Azonban
+russ,medium,всегда,к сожалению,успешного,с удовольствием,к сожалению,Sajnos
+russ,medium,розмарин,имбирь,тимьян,базилик,тимьян,Kakukkfű
+russ,medium,редко,часто,однако,поскольку,редко,Ritkán
+russ,medium,всегда,обычно,часто,редко,обычно,Általában
+russ,medium,тимьян,достижение,успешный,профессия,достижение,Eredmény
+e,m,p,t,y,l,i,n,e
+finn,medium,erinomainen,hyvä,surullinen,loistava,erinomainen,Kiváló
+finn,medium,keittiö,olohuone,ravintola,kylpyhuone,ravintola,Étterem
+finn,medium,sitten,muuten,yleensä,valitettavasti,muuten,Egyébként
+finn,medium,pesukone,astianpesukone,kaappi,pesu,astianpesukone,Mosogatógép
+finn,medium,ammatti,sitten,loistava,usein,sitten,Akkor
+finn,medium,valitettavasti sitten saavutus,vaikka,valitettavasti,Sajnos
+finn,medium,rosmariini,inkivääri,timjami,basilika,timjami,Kakukkfű
+finn,medium,harvoin,usein,muuten,koska,harvoin,Ritkán
+finn,medium,aina,yleensä,usein,harvoin,yleensä,Általában
+finn,medium,thyme,saavutus,onnistunut,ammatti,saavutus,Eredmény
+e,m,p,t,y,l,i,n,e
+eng,pro,industriously,cunningly,adequately,presumably,cunningly,Ravaszul
+eng,pro,efficiently,predictably,adequately,industriously,adequately,Megfelelően
+eng,pro,efficiently,adequately,predictably,industriously,industriously,Szorgalmasan
+eng,pro,glance,interpreter,candidacy,dubious accusation,interpreter,Fordító
+eng,pro,ancestor,versatility,exploitation,panacea,panacea,Csodaszer
+eng,pro,exploit,preservationist,superiority,precedence,exploit,Kihasználni
+eng,pro,precedence,mound,glance,candidacy,mound,Halom
+eng,pro,condescend,scepter,utilize,stakeholder,scepter,Jogar
+eng,pro,wager,pledge,solemn,portentous,wager,Fogadás
+eng,pro,prognosticator,portentous,precedence,presumably,portentous,Baljóslatú
+e,m,p,t,y,l,i,n,e
+russ,pro,усердно,хитро,адекватно,предположительно,хитро,Ravaszul
+russ,pro,эффективно,предсказуемо,адекватно,усердно,адекватно,Megfelelően
+russ,pro,эффективно,адекватно,предсказуемо,усердно,усердно,Szorgalmasan
+russ,pro,взгляд,переводчик,кандидатура,сомнительное обвинение,переводчик,Fordító
+russ,pro,предок,универсальность,эксплуатация,панацея,панацея,Csodaszer
+russ,pro,эксплуатировать,охранник,превосходство,приоритет,эксплуатировать,Kihasználni
+russ,pro,приоритет,курган,взгляд,кандидатура,курган,Halom
+russ,pro,снисходительно,скипетр,использовать,акционер,скипетр,Jogar
+russ,pro,пари,залог,торжественный,знаменательный,пари,Fogadás
+russ,pro,предсказатель,знаменательный,приоритет,предположительно,знаменательный,Baljóslatú
+e,m,p,t,y,l,i,n,e
+finn,pro,ahkerasti,ovelasti,riittävästi,oletettavasti,ovelasti,Ravaszul
+finn,pro,tehokkaasti,ennustettavasti,riittävästi,ahkerasti,riittävästi,Megfelelően
+finn,pro,tehokkaasti,riittävästi,ennustettavasti,ahkerasti,ahkerasti,Szorgalmasan
+finn,pro,vilkaisu,tulkki,ehdokkuus,epäilyttävä syytös,tulkki,Fordító
+finn,pro,esi-isä,monipuolisuus,hyväksikäyttö,ihmelääke,ihmelääke,Csodaszer
+finn,pro,hyödyntääparemmuus,säilöntäaine,etusija,hyödynnä,Kihasználni
+finn,pro,etusija,röykkiö,vilkaisu,ehdokkuus,röykkiö,Halom
+finn,pro,aleneva,valtikka,käyttää,sidosryhmä,valtikka,Jogar
+finn,pro,vedonlyönti,pantti,juhlallinen,merkittävä,vedonlyönti,Fogadás
+finn,pro,ennustin,merkittävä,etusija,oletettavasti,merkittävä,Baljóslatú
