@@ -227,10 +227,25 @@ public class Menu {
         resultSP.setVisible(true);
         resultIV.setImage(new Image(getClass().getResource("/images/resultBcg.png").toExternalForm()));
         if (goodAnswers == numberOfQuestionsAsked) {
-            resultT.setText("Good job! You answered every question right!");
+            if (language.equals("eng")) {
+                resultT.setText("Good job! You answered every question right!");
+            } else if (language.equals("russ")){
+                resultT.setText("Молодец! Вы правильно ответили на все вопросы!");
+            } else if (language.equals("finn")){
+                resultT.setText("Hyvää työtä! Vastasit jokaiseen kysymykseen oikein!");
+            }
         } else {
-            double percent = (((double)goodAnswers/numberOfQuestionsAsked)*100);
-            resultT.setText("You had " + goodAnswers+ "/" + numberOfQuestionsAsked + " ("+ (int)percent +"%) right answer(s).");
+            double percent = (((double) goodAnswers / numberOfQuestionsAsked) * 100);
+            if (language.equals("eng")) {
+                resultT.setText("You had " + goodAnswers + "/" + numberOfQuestionsAsked +
+                        " (" + (int) percent + "%) right answer(s).");
+            } else if (language.equals("russ")){
+                resultT.setText("У вас было " + goodAnswers + "/" + numberOfQuestionsAsked +
+                        " (" + (int) percent + "%) хороших ответ(ов).");
+            } else if (language.equals("finn")){
+                resultT.setText("Sinulla oli " + goodAnswers + "/" + numberOfQuestionsAsked +
+                        " (" + (int) percent + "%) hyvä(ä) vastaus(ta).");
+            }
         }
     }
 
