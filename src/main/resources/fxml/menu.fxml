@@ -95,7 +95,16 @@
       </Pane>
       <Pane fx:id="gameP" layoutX="132.0" layoutY="170.0" prefHeight="408.0" prefWidth="569.0" visible="false">
          <children>
-            <ImageView fx:id="questionIV" fitHeight="180.0" fitWidth="240.0" layoutX="165.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true" />
+            <StackPane layoutX="165.0" layoutY="7.0" prefHeight="180.0" prefWidth="240.0">
+               <children>
+                  <ImageView fx:id="questionIV" fitHeight="180.0" fitWidth="240.0" pickOnBounds="true" preserveRatio="true" />
+                  <Text fx:id="questionT" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="240.0">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                  </Text>
+               </children>
+            </StackPane>
             <ImageView fx:id="answ1IV" fitHeight="100.0" fitWidth="200.0" layoutX="50.0" layoutY="195.0" pickOnBounds="true" preserveRatio="true" />
             <Button fx:id="answ1B" alignment="CENTER" contentDisplay="CENTER" layoutX="50.0" layoutY="195.0" mnemonicParsing="false" onAction="#CheckAnswer" prefHeight="100.0" prefWidth="200.0" style="-fx-border-color: transparent; -fx-border-width: 0; -fx-background-radius: 0; -fx-background-color: transparent;" text="answer1" textAlignment="CENTER">
                <font>
