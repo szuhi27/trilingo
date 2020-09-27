@@ -154,4 +154,26 @@ public class Menu {
             }
         });
     }
+    
+    public void ToMenu(ActionEvent event){
+        languagesP.setVisible(true);
+        gameP.setVisible(false);
+        resultSP.setVisible(false);
+        difficultiesP.setVisible(false);
+    }
+
+    public void Mute(ActionEvent event){
+        if (music){
+            music = false;
+            a.pause();
+        } else {
+            music = true;
+            a.play();
+        }
+    }
+
+    public void Exit(ActionEvent event){
+        Platform.exit();
+    }
+
 }
