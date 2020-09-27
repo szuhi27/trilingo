@@ -11,7 +11,7 @@ public class LingoApp extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        Parent root = FXMLLoader.load(LingoApp.class.getResource("/fxml/menu.fxml"));
+        Parent root = FXMLLoader.load(LingoApp.class.getResource("/menu.fxml"));
         primaryStage.setTitle("Trilingo");
         primaryStage.setScene(new Scene(root));
         primaryStage.show();
