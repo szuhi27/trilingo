@@ -215,8 +215,8 @@ public class Menu {
 
     public void CheckAnswer(ActionEvent event){
         if (((Button) event.getSource()).getText().equals(correctAnsw[questionNumber])){
-            SetQuestion();
             ++goodAnswers;
+            SetQuestion();
         } else {
             SetQuestion();
         }

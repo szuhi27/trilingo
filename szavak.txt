@@ -43,7 +43,7 @@ eng,medium,always,usually,often,rarely,usually,Általában
 eng,medium,thyme,achievement,succesful,profession,achievement,Eredmény
 e,m,p,t,y,l,i,n,e
 russ,medium,отлично,хорошо,грустно,блестяще,отлично,Kiváló
-russ,medium,кухня,гостиная,ресторан,ванная,ресторан,Étteremú
+russ,medium,кухня,гостиная,ресторан,ванная,ресторан,Étterem
 russ,medium,однако,кстати,редко,к сожалению,кстати,Egyébként
 russ,medium,стиральная машина,посудомоечная машина,шкаф,мытье посуды,посудомоечная машина,Mosogatógép
 russ,medium,однако,редко,блестяще,часто,однако,Azonban
