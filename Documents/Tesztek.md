@@ -40,3 +40,24 @@ Finn és orosz nyelvi feladatok helyességének tesztelése
 10. 10 helyes válasszal kitöltés -> 10/10 eredmény -> ✓
 
 Az előző eredmény történt mindkét nyelven a helyes válaszok kiválasztásakor
+
+## Boros Gergely
+Gombok helyes működése
+
+1. exit gomb lenyomása -> kilép a programból -> ✓
+2. mute gomb lenyomása -> lenémitja a zenét  -> ✓
+3. mute gomb lenyomása miközben nincs zene -> elindítja a zenét -> ✓
+4. "Angol" gomb lenyomása -> nehézségi szintek kiválasztásának felülete -> ✓
+5. "Finn" gomb lenyomása -> nehézségi szintek kiválasztásának felülete -> ✓
+6. "Orosz" gomb lenyomása -> nehézségi szintek kiválasztásának felülete -> ✓
+7. "Kezdő" gomb lenyomása -> 1. kérdés megjelnítése -> ✓
+8. "Haladó" gomb lenyomása -> 1. kérdés megjelnítése -> ✓
+9. "Szakértő" gomb lenyomása -> 1. kérdés megjelnítése -> ✓
+10. "answer1" gomb lenyomása -> következő kérdés megjelenítése -> ✓
+11. "answer2" gomb lenyomása -> következő kérdés megjelenítése -> ✓
+12. "answer3" gomb lenyomása -> következő kérdés megjelenítése -> ✓
+13. "answer4" gomb lenyomása -> következő kérdés megjelenítése -> ✓
+14 "menu" gomb lenyomása -> menü megjelenítése -> ✓
+
+A teszt minden esetben sikeres volt.
+
